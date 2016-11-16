@@ -1,0 +1,1319 @@
+body {
+  background-color: #fff;
+  font-family: 'Dosis', sans-serif;
+  color: #999999;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+/*----------------HEADER*/
+
+.header {
+  width: 100%;
+  background-color: #fff;
+  height: 0px;
+  margin-left: 0;
+}
+
+.header ul {
+  margin-top: 50px;
+  margin-left: 50px;
+  text-decoration: none;
+
+}
+
+.header li {
+  color: #25AAE1;
+  list-style: none;
+  display: none;
+  font-size: 1.0em;
+
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.header li a {
+  text-decoration: none;
+  color: #25AAE1;
+}
+
+.header li a:hover {
+  color: #F1592A
+}
+
+.header img {
+  width: 180px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.gray-header {
+  height: 35px;
+  width:100%;
+  background-color: #eeeeee;
+  margin-top: 85px;
+  margin-left: -15px;
+  position: absolute;
+  display: none;
+}
+
+.block-banner{
+}
+
+.keep-your-banner{
+  height: 400px;
+  width:100%;
+  background-color: #2F316F;
+  margin-top: 20px;
+  color: #fff;
+  z-index: 4;
+  padding-bottom: 60px;
+
+}
+
+
+.test-pict img{
+  width:100%;
+}
+
+.navbar-toggle {
+ background-color: white;
+ border: 1px solid #0c256a;
+ margin-top: 25px;
+}
+
+.navbar-toggle .icon-bar {
+    width: 34px;
+    height: 3px;
+    background-color: #0c256a;
+}
+
+.navbar-toggle .menu-span {
+    font-size: 0.8em;
+}
+
+.navbar-nav  {
+  display: block;
+}
+
+.navbar-nav > li > a {
+  font-size: 1.2em;
+}
+
+.navbar-nav > li > a:hover {
+  color: #F1592A;
+}
+/*------------------FIRST BANNER*/
+
+.main-nav {
+  display: none;
+  text-align: center;
+}
+
+
+.keep-your-banner img{
+  margin-top: 50px;
+  width: 107%;
+  margin-left: -15px;
+  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.6);
+}
+
+.keep-your-banner h1{
+  font-size: 2.4em;
+  font-style: italic;
+  line-height: 1.1em;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.keep-your-banner p{
+  font-size: 1.2em;
+  text-align: center;
+}
+
+
+
+.banner-one {
+  float: right;
+  text-align: center;
+  margin-left: -30px;
+}
+
+.info-button {
+  color: #fff;
+  background-color: #25AAE1;
+  font-size: 1.2em;
+  font-style: italic;
+  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.6);
+  text-align: center;
+  margin-bottom: 30px;
+  border-radius: 2px;
+}
+
+.info-button:hover{
+  color: #fff;
+  background-color: #F1592A;
+  font-style: italic;
+  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.6);
+}
+
+.btn-default {
+  border-radius: 1.6px;
+  border: none;
+
+}
+
+
+
+/*----------SECOND BANNER*/
+
+.course-button {
+  color: #fff;
+  background-color: #25AAE1;
+  border: 2px solid #25AAE1;
+  font-size: 1.4em;
+  font-weight: bold;
+  font-style: italic;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-top: -20px;
+
+  width:100%;
+
+}
+.course-button:hover {
+  color: #fff;
+  background-color: #F1592A;
+  border: 2px solid #F1592A;
+
+}
+
+
+.info-button-outline {
+  color: #25AAE1;
+  border: 5px solid #25AAE1;
+  font-size: 1.4em;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.2em;
+  margin-top: 15px;
+  width:100%;
+
+}
+.info-button-outline:hover {
+  color: #F1592A;;
+  border: 5px solid #F1592A;
+  background-color: #fff;
+
+
+}
+
+.second-banner h1 {
+  color: #2F316F;
+  margin-top: 190px;
+  padding-bottom: 40px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.button-row {
+  margin-bottom: 50px;
+}
+
+/*--------------------THE LATEST*/
+
+
+.the-latest {
+  background-image: url(../img/home-social-background.jpg);
+  background-repeat: repeat-x;
+  background-position: top;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.the-latest h1 {
+  color: #2F316F;
+  font-size: 1.6em;
+  font-weight: bold;
+  padding-bottom: 0px;
+  margin-top: -40px;
+}
+
+.combining h2{
+  font-size: 1.4em;
+  color: #25AAE1;
+  font-weight: bold;
+
+}
+
+.combining a{
+  text-decoration: underline;
+  color: #25AAE1;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 60px;
+}
+
+.combining {
+  border: 5px solid #FECD27;
+  padding-bottom: 70px;
+  background-color: #fff;
+  margin-bottom: 30px;
+
+}
+
+.box-headline {
+  color: #F1592A;
+
+}
+
+.tweets-box {
+  margin-left: 0px;
+  width: 100%;
+  border: 1px solid #A9A9A9;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.interface-tag {
+  /*padding-left: 15px;*/
+  color: #F1592A;
+}
+
+.ace-interview {
+  border: 5px solid #E8E8E8;
+  padding-bottom: 70px;
+  background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.ace-interview h2{
+  font-size: 1.4em;
+  color: #25AAE1;
+  font-weight: bold;
+
+}
+
+.ace-interview a{
+  text-decoration: underline;
+  color: #25AAE1;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 60px;
+}
+
+/*-------------------WHO WE ARE*/
+.who-we-are {
+  padding-bottom: 80px;
+}
+
+
+.who-we-are h1 {
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 40px;
+  font-weight: bold;
+  font-size: 1.6em;
+  color: #2F316F;
+}
+
+.gray-line {
+  border-bottom: 1px solid #A9A9A9;
+  padding-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.who-col-three h3{
+  color: #2F316F;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.who-sec-p {
+  padding-top: 10px;
+}
+
+/*-----------------FOOTER*/
+
+.footer {
+  background-color: #25AAE1;
+  color: #FECD27;
+}
+.footer img {
+  padding-top: 20px;
+}
+.social-link img {
+  margin-top: -10px;
+  padding-right: 10px;
+}
+
+.social-link p {
+  color: #fff;
+  padding-top: 20px;
+  margin-bottom: -20px;
+  }
+
+.footer-one h2 {
+  padding-top: 20px;
+  font-size: 1.8em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-top: -5px;
+}
+
+.footer-one h4 {
+  margin-top: -8px;
+  color: #fff;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+.footer-one p {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+.footer-one a {
+  color: #FECD27;
+  font-size: 1em;
+
+}
+
+.footer-one a:hover{
+  opacity: 0.8;
+  text-decoration: none;
+
+}
+
+.footer-two .copyright {
+  font-size: 0.8em;
+  margin-top: -5px;
+  line-height: 1.6em;
+  color: #A9A9A9;
+  padding-bottom: 60px;
+}
+
+.footer-two {
+  margin-top: 10px;
+}
+
+.footer-two a{
+  display: block;
+  padding-bottom: 10px;
+}
+
+.footer-three {
+  margin-top: -80px;
+}
+
+.footer-three h4{
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 40px;
+}
+
+.subscribe-button {
+  color: #fff;
+  background-color: #999999;
+  font-size: 1.1em;
+  line-height: 1em;
+  padding-top: 8px;
+  font-weight: bold;
+  border-radius: 3px;
+
+
+}
+.subscribe-button:hover {
+  color: #fff;
+  background-color: #A9A9A9;
+
+}
+
+.have-questions {
+  margin-top: 60px;
+}
+
+.find-button {
+  color: #fff;
+  background-color: #25AAE1;
+  font-size: 1.3em;
+  line-height: 1em;
+  padding-top: 8px;
+  font-weight: bold;
+  border-radius: 3px;
+
+}
+
+.find-button:hover {
+  color: #fff;
+  background-color: #F1592A;
+
+
+}
+
+.email-address {
+  margin-top: 20px;;
+}
+
+.social-link a:hover {
+  opacity: 0.8;
+}
+
+.subscribe-button-two {
+  color: #2F316F;;
+  background-color: #FECD27;
+  font-size: 1em;
+  font-weight: bold;
+  opacity: 1.0;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+.subscribe-button-two:hover {
+  color: #2F316F;;
+  background-color: #FECD27;
+
+}
+
+.sub-div a:hover {
+  opacity: 1.0
+}
+
+/*--------------------COURSES*/
+
+.courses {
+  color: #fff;
+  background-color: #2F316F;
+  margin-top: 10px;
+  height: 260px;
+  background-image: url(../img/banner_new.png);
+  background-repeat: repeat-x;
+  background-position:bottom;
+
+}
+
+
+.courses-classes {
+  margin-top: -147px;
+}
+
+.courses-classes p{
+  font-family: 'Georgia', serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.courses h1 {
+  padding-top: 40px;
+  font-size: 2.2em;
+  text-align: center
+
+}
+
+.course-info {
+  background-color: #fff;
+  margin-top: 50px;
+  padding-left: 30px;
+}
+
+.course-info-two h2 {
+  color: #F1592A;
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.course-info-two h4 {
+  color: #2F316F;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+
+.course-info-two h5{
+  color: #2F316F;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.rsvp-button {
+  color: #fff;
+  background-color: #25AAE1;
+  border: 2px solid #25AAE1;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-right: 10px;
+
+}
+.rsvp-button:hover {
+  color: #fff;
+  background-color: #F1592A;
+  border: 2px solid #F1592A;
+
+}
+
+
+
+.who-should-attend {
+  padding-top: 20px;
+}
+.course-info-three {
+  margin-top: -20px;
+}
+
+
+.course-info-three h2{
+  margin-bottom: -15px;
+  margin-top: 50px;
+}
+
+.course-info-three p {
+  margin-top: -10px;
+  padding-bottom: 30px;
+}
+
+.course-info-four {
+  margin-top: -30px;
+  padding-bottom: 80px;
+}
+
+.course-info-four h4 {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.fly-wheel {
+  color: #25aae1;
+}
+
+.fly-wheel:hover {
+  color: #25aae1;
+  text-decoration: none;
+}
+
+.interested-heading{
+  padding-top: 50px;
+  display: none;
+  color: #999999;
+  font-size: 1.2em;
+}
+
+.interested-heading h6{
+  margin-top: 20px;
+  margin-right: 30px;
+  font-size: 1em;
+}
+
+.work-button {
+  color: #fff;
+  background-color: #25AAE1;
+  border: 2px solid #25AAE1;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-left: 20px;
+  margin-top: -12px;
+  float: right;
+
+}
+.work-button:hover {
+  color: #fff;
+  background-color: #F1592A;
+  border: 2px solid #F1592A;
+
+}
+
+/*------------------FINANCIAL AID*/
+
+.financial-aid-container p{
+  font-family: 'Georgia', serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+
+.financial-aid-container {
+  margin-top: -97px;
+  background-color: #fff;
+  padding-left: 40px;
+}
+
+.financial-aid-container a{
+  color: #25AAE1;
+}
+
+.financial-aid-container a:hover{
+  text-decoration: none;
+}
+
+.financial-info-one h2 {
+    padding-bottom: 10px;
+    padding-top: 20px;
+
+}
+
+.financial-aid-container h2 {
+    color: #F1592A;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.financial-aid-container h4 {
+  color: #2F316F;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.aid-picts {
+
+  padding-top: 30px;
+  width: 360px;
+}
+
+.that-me-button-outline {
+  color: #25AAE1;
+  border: 5px solid #25AAE1;
+  font-size: 1.6em;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+
+}
+.that-me-button-outline:hover {
+  margin-top: 30px;
+  color: #F1592A;;
+  border: 5px solid #F1592A;
+  background-color: #fff;
+}
+
+.financial-info-two {
+  margin-bottom: 30px;
+}
+
+.financial-info-three {
+  /*width:460px;*/
+  vertical-align: top;
+  padding-bottom: 20px;
+}
+
+.financial-info-four {
+  /*width:100%;*/
+  vertical-align: top;
+}
+
+.financial-info-four p {
+  padding-top: 20px;
+}
+
+.para-financial-four p{
+  padding-top: 10px;
+  padding-left: 0px;
+}
+
+.para-financial-four p:last-of-type {
+  padding-bottom: 40px;
+}
+
+.program-picts img{
+  width: 90%;
+  border: 3px solid rgba(153, 153, 153,0.1);
+}
+
+.program-picts {
+  padding-bottom: 20px;
+}
+
+.program-picts h4{
+  margin-top: 20px;
+  text-align: left;
+  font-size: 1.4em;
+}
+
+.program-picts p {
+  text-align: left;
+  width: 100%;
+}
+
+.financial-info-five {
+  margin-top: 20px;
+
+}
+
+.financial-info-five li{
+  line-height: 1.6em;
+  font-family: Georgia;
+  font-size: 1.2em;
+}
+
+.financial-info-six {
+  padding-top: 10px;
+}
+
+.financial-info-six p{
+  padding-bottom: 10px;
+}
+
+.financial-info-six h5{
+  font-size: 1em;
+  color: #F1592A;
+  margin-top: -10px;
+}
+
+.financial-info-six .gray-line{
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.financial-info-seven h5{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.para-indent {
+  margin-left: 20px;
+}
+
+.financial-info-seven{
+  padding-bottom: 60px;
+}
+
+.financial-info-seven h4{
+  padding-top: 30px;
+}
+
+.program-picts h3 {
+  color: #2F316F;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+@media (min-width: 768px) {
+
+
+  .interested-heading{
+
+    display: inline-block;;
+  }
+
+  .gray-header {
+  display: block;
+  }
+
+  .header li {
+    color: #25AAE1;
+    padding: 0 5px;
+    margin-top: 15px;
+    display: inline-block;
+  }
+
+  .header {
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 60px;
+  }
+
+  .header img {
+    width:180px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 0;
+  }
+
+  .header ul {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .keep-your-banner h1{
+    font-size: 3em;
+    text-align: center;
+
+  }
+
+  .keep-your-banner p{
+    font-size: 1.4em;
+    text-align: center;
+
+
+  }
+  .main-nav {
+    display: block;
+    margin-top: 15px;
+  }
+
+
+  .courses {
+    margin-top: -5px;
+  }
+.keep-your-banner{
+  height: 660px;
+  width:100%;
+  background-color: #2F316F;
+  margin-top: -5px;
+  color: #fff;
+  z-index: 6;
+  padding-bottom: 0px;
+
+}
+
+.keep-your-banner img{
+  margin-top: 50px;
+  width: 200%;
+  margin-left: 75px;
+
+}
+
+.banner-one {
+  text-align: center;
+}
+
+
+.second-banner h1 {
+  margin-top: 60px;
+  padding-bottom: 40px;
+  font-size: 2em;
+}
+
+.course-button {
+  color: #fff;
+  background-color: #25AAE1;
+  border: 2px solid #25AAE1;
+  padding-left: 20px;
+  margin-right: 10px;
+  margin-top: 15px;
+  width:auto;
+}
+.course-button:hover {
+  border: 2px solid #F1592A;
+}
+
+
+.info-button-outline {
+  border: 5px solid #25AAE1;
+  line-height: 1.2em;
+  margin-left: 10px;
+  width:auto;
+}
+.info-button-outline:hover {
+  border: 5px solid #F1592A;
+}
+
+.the-latest h1 {
+  font-size: 2.4em;
+  padding-bottom: 40px;
+}
+
+.tweets-box {
+  width: 100%;
+}
+.who-we-are h1 {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  font-size: 2.4em;
+}
+
+.who-col-three h3{
+  color: #2F316F;
+  font-size: 1.6em;
+
+}
+
+.the-latest {
+  padding-top: 20px;
+}
+
+.footer-one {
+  margin-top: 100px;
+  margin-left: -65px;
+}
+
+.footer-three {
+  margin-top: 10px;
+}
+
+.subscribe-button-two {
+  color: #2F316F;;
+  background-color: #FECD27;
+  font-size: 1em;
+  font-weight: bold;
+  opacity: 1.0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.social-link p {
+  margin-bottom: -10px;
+  }
+
+  .courses h1 {
+    font-size: 3.2em;
+    text-align: left;
+  }
+
+  .financial-aid-container h2 {
+      font-size: 1.4em;
+  }
+
+  .financial-info-three {
+
+    vertical-align: top;
+    padding-bottom: 20px;
+  }
+  .financial-info-four {
+
+    vertical-align: top;
+  }
+
+  .financial-info-two {
+    margin-bottom: 30px;
+}
+
+.para-financial-four p{
+  padding-top: 10px;
+}
+
+.program-picts {
+  padding-bottom: 60px;
+
+}
+  .program-picts img{
+    width: 150px;
+  }
+
+  .program-picts p {
+    text-align: left;
+    width: 150px;
+    /*margin-left: 30px;*/
+  }
+
+  .program-picts h4{
+    margin-top: 20px;
+    text-align: left;
+    /*margin-left: 30px;*/
+    font-size: 1.8em;
+  }
+
+  .financial-aid-container h4 {
+    color: #2F316F;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  .financial-info-six {
+    padding-top: 30px;
+}
+.financial-info-six p{
+  padding-bottom: 10px;
+}
+
+.financial-info-six .gray-line{
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.financial-info-seven h4{
+  padding-top: 60px;
+}
+.courses h1 {
+  padding-top: 30px;
+  font-size: 2.6em;
+  text-align: left;
+}
+.interested-heading h6{
+  margin-top: 10px;
+  margin-right: 30px;
+  font-size: 0.8em;
+}
+
+.work-button {
+  margin-top: 10px;
+}
+
+.interested-heading{
+  padding-top: 20px;
+  float: right;
+}
+
+.aid-picts {
+
+  padding-top: 30px;
+  width: 300px;
+}
+
+.financial-info-four p {
+  padding-top: 0px;
+  padding-bottom: 80px
+}
+
+
+.program-picts h3 {
+  color: #2F316F;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.agape-red{
+  text-align: left;
+  /*margin-left: -30px;*/
+}
+.bozell{
+  text-align: left;
+}
+
+.hudl{
+  text-align: left;
+}
+
+.volano{
+  margin-left: 0px;
+  letter-spacing: -0.9px;
+  text-align: left;
+}
+
+.navbar-nav  {
+  display: none
+}
+
+}
+
+@media (min-width: 992px) {
+  .gray-header {
+  display: none;
+  }
+
+  .header img {
+    width:220px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .main-nav {
+    margin-top:20px;
+  }
+
+  .courses h1 {
+     padding-top: 40px;
+     font-size: 2.8em;
+ }
+
+ .keep-your-banner {
+   margin-top: 20px;
+}
+
+ .interested-heading h6 {
+    margin-top: 50px;
+    padding-left: 45px;
+}
+
+.financial-aid-container h2 {
+    font-size: 2.1em;
+}
+.interested-heading {
+    padding-left: 25px;
+}
+
+.financial-aid-container h4 {
+    font-size: 1.4em;
+}
+
+.financial-info-three {
+    width: 350px;
+    margin-right: 110px;
+margin-left: 50px;
+}
+
+.financial-info-four {
+    width: 350px;
+
+}
+
+.program-picts img {
+    width: 220px;
+}
+
+.financial-aid-container h2 {
+    font-size: 1.9em;
+}
+
+
+.financial-aid-container h4 {
+    font-size: 1.5em;
+    margin-bottom: 0px;
+}
+
+
+.aid-picts {
+
+    width: 350px;
+}
+.work-button {
+    margin-top: -15px;
+}
+  .keep-your-banner{
+    height: 340px;
+    background-position: bottom;
+    background-image: url(../img/banner_new.png);
+    background-repeat: repeat-x;
+    background-position:bottom;
+  }
+
+  .keep-your-banner img{
+    margin-left: 35px;
+    margin-top: 60px;
+
+  }
+
+  .keep-your-banner h1{
+    font-size: 2.8em;
+    text-align: left;
+    margin-left: 30px;
+  }
+
+  .info-button {
+    float: left;
+    margin-left: 30px;
+  }
+
+  .combining {
+    padding-bottom: 30px;
+  }
+
+  .ace-interview {
+    padding-bottom: 30px;
+  }
+
+  .footer-one {
+    margin-top: 100px;
+    margin-left: -80px;
+  }
+
+  .test-pict img{
+    width:100%;
+  }
+  .tweets-box {
+    width: 300px;
+  }
+
+  .program-picts h3 {
+    color: #2F316F;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  .program-picts p {
+    text-align: left;
+    width: 220px;
+}
+
+
+  .volano{
+    letter-spacing: -0.9px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .gray-header {
+  display: none;
+  }
+
+  .main-nav {
+    margin-top: -30px;
+  }
+
+  .keep-your-banner img{
+    margin-top: 50px;
+    width: 100%;
+    margin-left: -15px;
+  }
+
+    .keep-your-banner h1{
+      font-size: 3em;
+      text-align: left;
+      margin-left: 30px;
+    }
+
+    .keep-your-banner p{
+      font-size: 1.4em;
+      text-align: left;
+      margin-left: 30px;
+    }
+
+    .footer-one {
+      margin-left: -95px;
+    }
+
+    .header ul {
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+
+    .header li {
+      color: #25AAE1;
+      padding: 0 10px;
+    }
+    .interested-heading h6 {
+        padding-left: 75px;
+    }
+    .interested-heading {
+      padding-left: 120px;
+  }
+  .financial-info-three {
+    margin-right: 220px;
+    margin-left: 85px;
+}
+.program-picts p {
+  width: 220px;
+  margin-left: 20px;
+}
+.program-picts h4{
+  margin-left: 20px
+}
+.financial-aid-container h4 {
+    margin-left: 0px;
+}
+
+.program-picts h3 {
+  color: #2F316F;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.agape-red{
+  margin-left: 20px;
+}
+.bozell{
+  margin-left: 20px;
+}
+
+.hudl{
+  margin-left: 20px;
+}
+
+.volano{
+  margin-left: 20px;
+}
+
+}
